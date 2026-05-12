@@ -5,7 +5,7 @@ Supports HNSW and KD-Tree methods
 import numpy as np
 
 class ANNIndex:
-    def __init__(self, method="hnsw", dim=128):
+    def __init__(self, method="hnsw", dim=256):
         self.method = method
         self.dim = dim
         self.index = None

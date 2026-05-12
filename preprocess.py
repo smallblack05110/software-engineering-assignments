@@ -4,7 +4,7 @@ Dimensionality reduction and feature selection
 """
 import numpy as np
 
-def pca_reduce(data: np.ndarray, n_components: int = 50) -> np.ndarray:
+def pca_reduce(data: np.ndarray, n_components: int = 70) -> np.ndarray:
     """
     Reduce dimensionality via PCA.
     Used before building ANN index to speed up retrieval.

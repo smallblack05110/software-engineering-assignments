@@ -11,7 +11,7 @@ def main():
     index.build(data)
 
     query = data[0]
-    neighbors = index.search(query, k=10)
+    neighbors = index.search(query, k=20)
     print("Top-10 nearest neighbors:", neighbors)
 
 if __name__ == "__main__":
